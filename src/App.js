@@ -28,7 +28,7 @@ class App extends Component {
                 <Route path="/app" component={ViewMain} />
                 <Route path="/" exact component={View} />
                 <Route path="/error" exact component={ViewError} />
-                <Redirect to="/error" />
+                <Redirect to="/app" />
               </Switch>
             </Router>
           </Suspense>
