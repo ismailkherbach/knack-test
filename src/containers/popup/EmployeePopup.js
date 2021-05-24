@@ -87,7 +87,6 @@ export default class EmployeePopup extends Component {
               <h5>{employee.contract}</h5>
             </div>
           </div>
-          <div className="employee-features flex fdc aic jcc"></div>
         </div>
       </Fragment>
     );
